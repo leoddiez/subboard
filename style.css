@@ -1,0 +1,1449 @@
+.subsection-dashboard,
+.subsection-dashboard * {
+  box-sizing: border-box;
+}
+.subsection-dashboard {
+  background: #ffffff;
+  height: 1381px;
+  position: relative;
+  overflow: hidden;
+}
+.settings {
+  background: #ffffff;
+  width: 1440px;
+  height: 1902px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1100px;
+  height: 40px;
+  position: absolute;
+  left: 170px;
+  top: 140px;
+}
+.aside {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-width: 0px 1px 0px 0px;
+  width: 256px;
+  height: 1822px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+.nav {
+  background: rgba(0, 0, 0, 0);
+  width: 255px;
+  height: 264px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  width: 223px;
+  height: 40px;
+  position: absolute;
+  left: 16px;
+  top: 64px;
+}
+.profile {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 10px;
+  width: 83px;
+  height: 20px;
+}
+.customer {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  object-fit: cover;
+}
+.div2 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 223px;
+  height: 40px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.span {
+  background: rgba(0, 0, 0, 0);
+  width: 61.66px;
+  height: 24px;
+  position: absolute;
+  left: 36px;
+  top: 8px;
+}
+.dashboard {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 86px;
+  height: 20px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  overflow: hidden;
+}
+.frame2 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div3 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  width: 223px;
+  height: 40px;
+  position: absolute;
+  left: 16px;
+  top: 112px;
+}
+.frame3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  overflow: hidden;
+}
+.frame4 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.my-courses {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 34px;
+  top: 10px;
+  width: 91px;
+  height: 20px;
+}
+.div4 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  width: 223px;
+  height: 40px;
+  position: absolute;
+  left: 16px;
+  top: 294px;
+}
+.frame5 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  overflow: hidden;
+}
+.frame6 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.history {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 36px;
+  top: 10px;
+  width: 55px;
+  height: 20px;
+}
+.div5 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  width: 223px;
+  height: 40px;
+  position: absolute;
+  left: 16px;
+  top: 334px;
+}
+.frame7 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  overflow: hidden;
+}
+.frame8 {
+  flex-shrink: 0;
+  width: 12px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.saved {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 10px;
+  width: 47px;
+  height: 20px;
+}
+.top-bar {
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+.rectangle-4137 {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.title {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.navigation {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.tab {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.textfield {
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+}
+.text {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.ic-search {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.div6 {
+  background: rgba(0, 0, 0, 0);
+  width: 768px;
+  height: 1126px;
+  position: absolute;
+  left: 460px;
+  top: 102px;
+}
+.div7 {
+  background: rgba(0, 0, 0, 0);
+  width: 294px;
+  height: 136px;
+  position: absolute;
+  left: 46px;
+  top: 232px;
+}
+.div8 {
+  background: #f5f5f5;
+  border-radius: 8px;
+  width: 181px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.cs-2337 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 10px;
+  width: 66px;
+  height: 20px;
+}
+.math-2414 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 58px;
+  width: 88px;
+  height: 20px;
+}
+.phys-2325 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 106px;
+  width: 87px;
+  height: 20px;
+}
+.div9 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 172px;
+  position: absolute;
+  left: 269px;
+  top: 116px;
+}
+.div10 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 366px;
+  height: 172px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.div11 {
+  background: rgba(0, 0, 0, 0);
+  width: 352px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.frame9 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  overflow: hidden;
+}
+.frame10 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.new-question {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 3px;
+  width: 120px;
+  height: 21px;
+}
+.p {
+  background: rgba(0, 0, 0, 0);
+  width: 352px;
+  height: 24px;
+  position: absolute;
+  left: 24px;
+  top: 68px;
+}
+.post-a-new-question-or-discussion-topic {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 300px;
+  height: 20px;
+}
+.button {
+  background: #ae3d00;
+  border-radius: 6px;
+  width: 318px;
+  height: 40px;
+  position: absolute;
+  left: 24px;
+  top: 108px;
+}
+.create-post {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 115px;
+  top: 10px;
+  width: 89px;
+  height: 20px;
+}
+.div12 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 366px;
+  height: 172px;
+  position: absolute;
+  left: 761px;
+  top: -4px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.frame11 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.browse-subjects {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 3px;
+  width: 142px;
+  height: 21px;
+}
+.find-questions-by-subject-or-professor {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 290px;
+  height: 20px;
+}
+.browse {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 130px;
+  top: 10px;
+  width: 57px;
+  height: 20px;
+}
+.div13 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 366px;
+  height: 172px;
+  position: absolute;
+  left: 376px;
+  top: 0px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.frame12 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  overflow: hidden;
+}
+.frame13 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.upload-resources {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 28px;
+  top: 3px;
+  width: 155px;
+  height: 21px;
+}
+.share-study-materials-and-guides {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 252px;
+  height: 20px;
+}
+.upload {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 11px;
+  width: 97px;
+  height: 18px;
+}
+.div14 {
+  background: #ffffff;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 930px;
+  height: 582px;
+  position: absolute;
+  left: 363px;
+  top: 340px;
+}
+.div15 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 42px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.cs-2337-computer-science-ii {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 352px;
+  height: 29px;
+}
+.button2 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 187.8px;
+  height: 42px;
+  position: absolute;
+  left: 692.2px;
+  top: 0px;
+}
+.add-to-favorites {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 47.5px;
+  top: 11px;
+  width: 125px;
+  height: 20px;
+}
+.frame14 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 21.5px;
+  top: 13px;
+  overflow: hidden;
+}
+.frame15 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div16 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: 91px;
+}
+.div17 {
+  background: #fafafa;
+  border-radius: 8px;
+  width: 282.67px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div18 {
+  background: rgba(0, 0, 0, 0);
+  width: 250.67px;
+  height: 36px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+._156 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 51px;
+  height: 36px;
+}
+.div19 {
+  background: rgba(0, 0, 0, 0);
+  width: 250.67px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 60px;
+}
+.questions {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 77px;
+  height: 20px;
+}
+.div20 {
+  background: #fafafa;
+  border-radius: 8px;
+  width: 282.67px;
+  height: 100px;
+  position: absolute;
+  left: 298.67px;
+  top: 0px;
+}
+._23 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 38px;
+  height: 36px;
+}
+.active-tutors {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 100px;
+  height: 20px;
+}
+.div21 {
+  background: #fafafa;
+  border-radius: 8px;
+  width: 282.67px;
+  height: 100px;
+  position: absolute;
+  left: 597.34px;
+  top: 0px;
+}
+._89 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 62px;
+  height: 36px;
+}
+.response-rate {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 113px;
+  height: 20px;
+}
+.div22 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 342px;
+  position: absolute;
+  left: 25px;
+  top: 215px;
+}
+.div23 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.input {
+  background: #fafafa;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 755.19px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.search-in-this-class {
+  color: #adaebc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+  width: 159px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button3 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 108.81px;
+  height: 42px;
+  position: absolute;
+  left: 771.19px;
+  top: 0px;
+}
+.filters {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 45.5px;
+  top: 11px;
+  width: 47px;
+  height: 20px;
+}
+.frame16 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 21.5px;
+  top: 13px;
+  overflow: hidden;
+}
+.frame17 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div24 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 284px;
+  position: absolute;
+  left: 0px;
+  top: 58px;
+}
+.div25 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 880px;
+  height: 134px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div26 {
+  background: rgba(0, 0, 0, 0);
+  width: 846px;
+  height: 100px;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame18 {
+  border-radius: 9999px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.div27 {
+  background: rgba(0, 0, 0, 0);
+  width: 790px;
+  height: 100px;
+  position: absolute;
+  left: 56px;
+  top: 0px;
+}
+.help-with-linked-list-implementation {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 279px;
+  height: 20px;
+}
+.i-m-having-trouble-understanding-how-to-implement-a-doubly-linked-list-in-c-specifically {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 34px;
+  width: 695px;
+  height: 20px;
+}
+.div28 {
+  background: rgba(0, 0, 0, 0);
+  width: 790px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.posted-2-h-ago {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 96px;
+  height: 17px;
+}
+._5-answers {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 107.38px;
+  top: 5px;
+  width: 68px;
+  height: 17px;
+}
+.div29 {
+  background: rgba(0, 0, 0, 0);
+  width: 140.8px;
+  height: 28px;
+  position: absolute;
+  left: 187.17px;
+  top: 0px;
+}
+.span2 {
+  background: #f5f5f5;
+  border-radius: 4px;
+  width: 82.78px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.linkedlist {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 67px;
+  height: 17px;
+}
+.span3 {
+  background: #f5f5f5;
+  border-radius: 4px;
+  width: 50.02px;
+  height: 28px;
+  position: absolute;
+  left: 90.78px;
+  top: 0px;
+}
+.cpp {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 34px;
+  height: 17px;
+}
+.div30 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 880px;
+  height: 134px;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+.div31 {
+  background: #e5e5e5;
+  border-radius: 9999px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.i {
+  background: rgba(0, 0, 0, 0);
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 13px;
+  top: 12px;
+}
+.svg {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame19 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.anonymous-recursion-practice-problems {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 315px;
+  height: 20px;
+}
+.looking-for-additional-practice-problems-for-recursion {
+  color: #525252;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 34px;
+  width: 418px;
+  height: 20px;
+}
+.posted-5-h-ago {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 96px;
+  height: 17px;
+}
+._2-answers {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 107.14px;
+  top: 5px;
+  width: 68px;
+  height: 17px;
+}
+.div32 {
+  background: rgba(0, 0, 0, 0);
+  width: 173.77px;
+  height: 28px;
+  position: absolute;
+  left: 187.17px;
+  top: 0px;
+}
+.span4 {
+  background: #f5f5f5;
+  border-radius: 4px;
+  width: 87.06px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.recursion {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 71px;
+  height: 17px;
+}
+.span5 {
+  background: #f5f5f5;
+  border-radius: 4px;
+  width: 78.7px;
+  height: 28px;
+  position: absolute;
+  left: 95.06px;
+  top: 0px;
+}
+.practice {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 63px;
+  height: 17px;
+}
+.div33 {
+  background: #ffffff;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 930px;
+  height: 184px;
+  position: absolute;
+  left: 363px;
+  top: 974px;
+}
+.h-2 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 28px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.class-resources {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 156px;
+  height: 24px;
+}
+.div34 {
+  background: rgba(0, 0, 0, 0);
+  width: 880px;
+  height: 90px;
+  position: absolute;
+  left: 25px;
+  top: 69px;
+}
+.div35 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 432px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div36 {
+  background: rgba(0, 0, 0, 0);
+  width: 398px;
+  height: 44px;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+.frame20 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  overflow: hidden;
+}
+.frame21 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.div37 {
+  background: rgba(0, 0, 0, 0);
+  width: 122.81px;
+  height: 44px;
+  position: absolute;
+  left: 36px;
+  top: 0px;
+}
+.div38 {
+  background: rgba(0, 0, 0, 0);
+  width: 122.81px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.course-syllabus {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 122px;
+  height: 20px;
+}
+.div39 {
+  background: rgba(0, 0, 0, 0);
+  width: 122.81px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+}
+.pdf-2-3-mb {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 86px;
+  height: 17px;
+}
+.div40 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 432px;
+  height: 90px;
+  position: absolute;
+  left: 448px;
+  top: 0px;
+}
+.frame22 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  overflow: hidden;
+}
+.frame23 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.div41 {
+  background: rgba(0, 0, 0, 0);
+  width: 172.14px;
+  height: 44px;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+}
+.div42 {
+  background: rgba(0, 0, 0, 0);
+  width: 172.14px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.study-guide-midterm {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 173px;
+  height: 20px;
+}
+.div43 {
+  background: rgba(0, 0, 0, 0);
+  width: 172.14px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+}
+.pdf-1-8-mb {
+  color: #737373;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 83px;
+  height: 17px;
+}
